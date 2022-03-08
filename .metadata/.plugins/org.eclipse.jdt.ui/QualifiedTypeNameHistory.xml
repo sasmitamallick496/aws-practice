@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.amazonaws.lambda.demo.MyLambdaResponse"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
+    <fullyQualifiedTypeName name="com.amazonaws.lambda.demo.MyLambdaRequest"/>
+    <fullyQualifiedTypeName name="com.amazonaws.lambda.demo.LambdaRequest"/>
+    <fullyQualifiedTypeName name="com.amazonaws.lambda.demo.LambdaResponse"/>
+    <fullyQualifiedTypeName name="com.amazonaws.lambda.demo.LambdaProxyRequest"/>
+    <fullyQualifiedTypeName name="com.amazonaws.lambda.demo.LambdaProxyResponse"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="java.util.function.Supplier"/>
+    <fullyQualifiedTypeName name="com.sasmita.aws.lambda.repository.CustomerRepository"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="com.sasmita.aws.lambda.service.CustomerService"/>
+    <fullyQualifiedTypeName name="java.util.function.Function"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ObjectMapper"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.session.RedisSessionConfiguration.SpringBootRedisHttpSessionConfiguration"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.function.adapter.aws.SpringBootApiGatewayRequestHandler"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.function.adapter.aws.SpringBootRequestHandler"/>
+    <fullyQualifiedTypeName name="java.util.function.Consumer"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
+    <fullyQualifiedTypeName name="com.sasmita.aws.lambda.entity.Customer"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collector"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="org.springframework.data.repository.RepositoryDefinition"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="com.sasmita.aws.lambda.repository.CustomerDao"/>
+    <fullyQualifiedTypeName name="com.amazonaws.services.lambda.runtime.events.APIGatewayProxyRequestEvent"/>
+</qualifiedTypeNameHistroy>

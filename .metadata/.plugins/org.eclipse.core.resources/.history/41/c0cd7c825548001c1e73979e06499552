@@ -1,0 +1,48 @@
+package com.sasmita.aws.lambda;
+
+import java.util.List;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Supplier;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.sasmita.aws.lambda.entity.Customer;
+import com.sasmita.aws.lambda.service.CustomerService;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@SpringBootApplication
+@Data
+@AllArgsConstructor
+public class SpringbootAwsLambdaApplication {
+	
+	private CustomerService service;
+	
+	private ObjectMapper mapper;
+	
+	@Bean
+	public Supplier<List<Customer>> getAllCustomer(){
+		return () -> getService().getAllCustomers();
+	}
+	
+	@Bean
+	public Function<String, Customer> findCustomerByName(){
+		
+		System.out.println("Inside Create Customer---");
+		return  getService().getAllCustomers();
+		
+	}
+	
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringbootAwsLambdaApplication.class, args);
+	}
+
+}
